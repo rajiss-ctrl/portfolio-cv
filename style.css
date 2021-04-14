@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Puppin", sans-serif;
+}
+nav {
+  width: 100%;
+  box-shadow: 1px 3px 5px #00000046;
+  padding: 2%;
+}
+nav h4 {
+  padding-top: 3%;
+}
+nav ul {
+  padding-top: 3%;
+  width: 80%;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background: #22053d;
+  color: #fff;
+  font-size: 1rem;
+  padding: 14px;
+}
+main {
+  background: #5b90f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.details {
+  margin-bottom: 5px;
+  line-height: 1.5rem;
+}
+img {
+  border: 1px solid #5b90f6;
+  width: 10%;
+  box-shadow: 1px 3px 5px #29040446;
+}
+
+aside {
+  background-color: #fff;
+  padding: 4%;
+  margin: 4%;
+  width: 100%;
+  box-shadow: 1px 3px 5px #00000046;
+}
+main h1 {
+  width: 30%;
+  font-size: 17;
+}
+
+section {
+  box-shadow: 1px 3px 5px #00000046;
+  background-color: #fff;
+  width: 100%;
+  padding: 4%;
+  margin: 4%;
+}
+article h4 {
+  text-transform: uppercase;
+}
+
+.section-heading {
+  padding: 2%;
+  width: 100%;
+  box-shadow: 1px 3px 5px #00000046;
+}
+.sub-detail1 th,
+.sub-detail2 th {
+  text-align: left;
+}
+
+article {
+  width: 100%;
+}
+div header {
+  margin: 1%;
+  padding: 3%;
+  border-bottom: 1px solid #000;
+}
+
+header h1 {
+  color: #22053d;
+  font-size: 35px;
+}
+header p {
+  font-size: 1.6rem;
+}
+header label {
+  font-size: 1.2rem;
+}
+
+.block-element {
+  display: none;
+}
+
+div .cv-header-detatils,
+.objective,
+.programming-skils,
+.education-qualification,
+.pro-qualification,
+.referee {
+  border-bottom: 1px solid #000;
+  margin: 1%;
+  padding: 3%;
+}
+.cv-header-detatils li span {
+  margin-right: 0.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.cv-header-detatils li em {
+  position: absolute;
+  right: 5px;
+  font-size: 1rem;
+}
+.cv-header-detatils table tbody tr th,
+.programming-skils table tbody tr th {
+  text-align: left;
+}
+
+.objective span {
+  font-size: 1.2rem;
+}
+.programming-skils {
+  line-height: 2rem;
+  margin-bottom: 5px;
+}
+.programming-skils h3,
+.education-qualification h3,
+.pro-qualification h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.programming-skils h4 {
+  font-weight: bolder;
+}
+
+.programming-skils span {
+  position: absolute;
+  right: 5px;
+}
+
+.education-qualification ul {
+  font-size: 1.3rem;
+}
+.education-qualification ul li {
+  margin-bottom: 10px;
+}
+.pro-qualification p {
+  font-size: 1.2rem;
+}
+
+.referee ul li {
+  margin: 0.9rem;
+}
+
+.referee {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #22053d;
+  color: #fff;
+  padding: 2%;
+  text-align: center;
+}
+
+.logos .hng {
+  width: 30px;
+  height: 30px;
+}
+.logos .zuri {
+  width: 70px;
+  height: 30px;
+}
+.logo {
+  margin-bottom: 1rem;
+}
+footer ol li {
+  list-style: none;
+  margin: 5px;
+}
+@media (min-width: 768px) {
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 3px 5px #00000046;
+    padding: 2%;
+  }
+  nav ul {
+    padding-top: 3%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  main aside img {
+    width: 50%;
+  }
+  aside {
+    padding: 5px;
+    margin: 5px;
+    width: 28%;
+    box-shadow: 1px 3px 5px #00000046;
+  }
+  section {
+    padding: 5px;
+    margin: 5px;
+    width: 70%;
+  }
+  .details {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  div header {
+    margin: 0 13% 0 12%;
+    padding: 3%;
+    border-bottom: 1px solid #000;
+  }
+  .block-element {
+    display: none;
+  }
+  div .cv-header-detatils,
+  .objective,
+  .programming-skils,
+  .education-qualification,
+  .pro-qualification,
+  .referee {
+    border-bottom: 1px solid #000;
+    margin: 0 13% 0 12%;
+    padding: 3%;
+  }
+  /* .sub-detail1 {
+    text-align: start;
+    margin-right: 16rem;
+    padding: 1%;
+  }
+  .sub-detail2 {
+    margin-right: 2rem;
+  } */
+  .sub-detail1 {
+    width: 40%;
+    margin-right: 0;
+  }
+  .sub-detail2 {
+    margin: 0;
+    width: 50%;
+  }
+  .cv-header-detatils li em {
+    position: absolute;
+    right: 40%;
+    font-size: 1.3rem;
+  }
+  .programming-skils span {
+    position: absolute;
+    right: 40%;
+  }
+  .referee ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    background: #22053d;
+    color: #fff;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}
+@media (max-width: 280px) {
+  .details {
+    margin: 0;
+    padding: 0;
+  }
+  .email {
+    display: none;
+  }
+}
